@@ -1,0 +1,44 @@
+---
+title: "Shiny App Reproducible Pitch"
+author: "Choi Seungyong"
+date: '2021 11 21'
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Background of this project
+
+I am a time traveller and I am going to go back to 1973.
+And I am planning to visit my grandma in Dallas by car.
+So I need a car to drive and there were so many cars at that time too.
+So It's hard to make up my mind choosing a car for travelling
+
+Using the `mtcars` dataset I am going to compare cars from the table
+
+Milage, horsepower, Quarter Mile Time, cylinders, Transmission, Gears could be important things to choose
+
+## Application Overview
+
+The table will be made with variables like milage, gross horsepower, quarter mile time, number of cylinders, transmission type, number of gears
+
+And variables will be entered by bars and radio buttons 
+
+Finally the table will be made with how you choose variables
+
+## Slide with Complete Reporting Application
+
+Click the link below for the application.
+https://seungyong-choi.shinyapps.io/data_product/
+
+Click the link below complied project files on github repositaoy
+https://github.com/gomdalae/Coursera_Developing_Data_Products_Week_4_Assignment
+
+## Data Overview
+
+The data used for this application is the "mtcars" dataset, which is part of base R. "mtcars' has 32 rows and 11 variables
+```{r, message=FALSE}
+head(mtcars)
+```
